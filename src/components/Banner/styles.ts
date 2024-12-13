@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { TagContainer } from '../Tag/styles'
+//import { TagContainer } from '../Tag/styles'
 import { cores } from '../../styles'
 
 export const Imagem = styled.div`
@@ -246,6 +246,86 @@ export const BotaoSaibaMais = styled.button`
   opacity: 0px;
 
   background-color: ${cores.salmao};
+`
+//Macarrao
+
+export const Restaurante2 = styled.div`
+  width: 472px;
+  height: 398px;
+  top: 440px;
+  left: 723px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+  border: Mixed solid ${cores.salmao};
+`
+
+export const Tit = styled.h1`
+  width: 180px;
+  height: 21px;
+  top: 665px;
+  left: 730px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: ${cores.salmao};
+`
+
+export const Not = styled.h1`
+  width: 26px;
+  height: 21px;
+  top: 665px;
+  left: 1132px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: ${cores.salmao};
+`
+
+export const Icons = styled.image`
+  width: 21px;
+  height: 20px;
+  top: 0.5px;
+  gap: 0px;
+  opacity: 0px;
+
+  color: ${cores.amarelo};
+`
+
+export const Desc = styled.h2`
+  width: 456px;
+  height: 88px;
+  top: 702px;
+  left: 731px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: ${cores.salmao};
 `
 
 /*export const Botao = styled.button`
